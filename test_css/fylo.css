@@ -252,8 +252,13 @@ input{
 
     .features{
         display: block;
-        padding: 20px;
+        padding: 20px 10px;
         margin: auto;
+        width: 90%;
+    }
+
+    .features img{
+        width: 30%;
     }
 
     #testimonials{
