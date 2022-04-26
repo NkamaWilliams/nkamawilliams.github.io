@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: #ffffff00;
+}
+
+nav{
+    background-color: rgb(123, 212, 212);
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    overflow: auto;
+}
+
+li.nav{
+    list-style: none;
+    display: inline;
+    font-size: 1.1em;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.menu{
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+.menu:hover{
+    display: block;
+    z-index: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
