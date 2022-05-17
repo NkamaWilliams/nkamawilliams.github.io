@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+}
+
+#top-nav{
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 15px 10px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 3%;
+    font-size: 1.2em;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#nav-menu{
+    display: none;
+}
+#nav-menu:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#dropdown ul{
+    display: inline;
+}
+
+#dropdown li{
+    list-style: none;
+    display: inline;
+}
+
+#dropdown{
+    display: inline;
+}
+
+.row{
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.m-nav, .active{
+    display: inline;
+}
+
+.form-tag{
+    color: rgb(77, 77, 75);
+}
+
+form{
+    width: 97%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#pwd-b1, #pwd-b2{
+    width: 25px;
+}
+.row.end{
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 460px){
+    #dropdown ul{
+        display: inline;
+    }
+    
+    #dropdown li{
+        display: block;
+        padding: 5px 0;
+    }
+    
+    #dropdown{
+        display: none;
+    }
+
+    #nav-menu{
+        display: inline;
+    }
+}

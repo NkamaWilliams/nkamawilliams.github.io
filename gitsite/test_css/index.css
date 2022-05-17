@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+}
+
+#nav-logo{
+    width: 400px;
+}
+
+.top-nav{
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+hr{
+    margin: 0;
+}
+
+article{
+    padding: 20px;
+    text-align: center;
+}
+
+#about-excerpt{
+    margin: 30px auto;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.315);
+}
+
+.main-profile{
+    width: 30%;
+    border-radius: 50%;
+}
+
+section{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+section img{
+    width: 90%;
+}
