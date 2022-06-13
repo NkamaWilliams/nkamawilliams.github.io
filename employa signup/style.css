@@ -327,6 +327,11 @@
     display: none;
   }
 
+  .form-col label{
+    font-weight: 500;
+    font-size: 20px;
+  }
+
   .main__container {
       width: 100%;
       margin: 0;
